@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/resque/cli"
+
+Resque::Cli::ResqueCli.start

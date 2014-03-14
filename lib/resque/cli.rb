@@ -1,7 +1,9 @@
-require "resque/cli/version"
+require_relative "cli/version"
+require 'thor'
 
 module Resque
   module Cli
-    # Your code goes here...
+    class ResqueCli < ::Thor
+    end
   end
 end
