@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["liuming@lmws.net"]
   spec.summary       = %q{Resque command line tool}
   spec.description   = spec.summary
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/liuming/resque-cli"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
