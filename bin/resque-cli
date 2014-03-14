@@ -2,4 +2,4 @@
 
 require_relative "../lib/resque/cli"
 
-Resque::Cli::ResqueCli.start
+Resque::Cli::Commander.start
