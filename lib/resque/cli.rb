@@ -37,7 +37,7 @@ module Resque
         puts ::Resque.working
       end
 
-      desc "remove", "remove a queue"
+      desc "remove", "remove a worker"
       def remove(worker_id)
         puts ::Resque.remove_worker(worker_id)
       end
